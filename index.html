@@ -1,23 +1,204 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Examen</title>
-    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Eric Oller</title>
+    <link rel="stylesheet" href="porfolio.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap" rel="stylesheet">
+    <!--<link rel="stylesheet" href="nombre.css" type="text/css">-->
 </head>
 
 <body>
+    <header>
+        <nav>
+            <a href="Principal.html">INICIO</a>
+            <a href="productos.html">QUIEN SOY</a>
+            <a href="Iniciar sesion.html">TRABAJOS</a>
+            <a href="Crear cuenta.html">CONTACTO</a>
+        </nav>
+        <section class="textos-header">
+            <h1 class="line anim-typewriter" style="color: white;">
+                <style>
+                    body {
+                        height: calc(100vh - 8em);
+                    }
 
-    <ul>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">Contact</a></li>
-    </ul>
+                    .line {
+                        position: relative;
+                        top: 18%;
+                        width: 14.5em;
+                        margin: 5 auto;
+                        border-right: 3px solid rgba(100, 250, 100, 0.9);
+                        font-size: 100%;
+                        text-align: center;
+                        white-space: nowrap;
+                        overflow: hidden;
+                        transform: translatey(-50%);
+                    }
 
+                    /*Animacion*/
+                    .anim-typewriter {
+                        animation: typewriter 2.5s steps(40) 1s 1 normal both,
+                            blinkTextCursor 500ms steps(40) infinite normal both;
+                    }
 
+                    @keyframes typewriter {
+                        from {
+                            width: 0;
+                        }
+
+                        to {
+                            width: 9em;
+                        }
+                    }
+
+                    @keyframes blinkTextCursor {
+                        from {
+                            border-right-color: rgba(11, 12, 11, 0.9);
+                        }
+
+                        to {
+                            border-right-color: transparent;
+                        }
+                    }
+                </style>ERIC OLLER VISIER
+            </h1>
+        </section>
+        <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+                style="height: 100%; width: 100%;">
+                <path d="M0.00,49.98 C150.00,150.00 349.20,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                    style="stroke: none; fill: #fff;"></path>
+            </svg></div>
+    </header>
+    <main>
+        <section class="contenedor sobre-nosotros">
+            <div class="contenedor-sobre-nosotros">
+                <img style="border: 5px solid; color: black;" src="img/YO.jpeg" alt="" width="350" height="300" />
+                <div class="contenido-textos">
+                    <h3><span>1</span> Quien soy y a que me dedico ?</h3>
+                    <p></p>
+                </div>
+            </div>
+        </section>
+        <section class="portafolio">
+            <div class="contenedor">
+                <div class="galeria-port">
+                    <div class="imagen-port">
+                        <img src="" alt="">
+                        <div class="hover-galeria">
+                            <img src="" alt="">
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="" alt="">
+                        <div class="hover-galeria">
+                            <img src="" alt="">
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="" alt="">
+                        <div class="hover-galeria">
+                            <img src="" alt="">
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="" alt="">
+                        <div class="hover-galeria">
+                            <img src="" alt="">
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="" alt="">
+                        <div class="hover-galeria">
+                            <img src="" alt="">
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="" alt="">
+                        <div class="hover-galeria">
+                            <img src="" alt="">
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="" alt="">
+                        <div class="hover-galeria">
+                            <img src="g" alt="">
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="" alt="">
+                        <div class="hover-galeria">
+                            <img src="" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about-services">
+            <div class="contenedor">
+                <h2 class="titulo">Trabajos</h2>
+                &nbsp;
+                <div class="servicio-cont">
+                    <div class="servicio-ind">
+                        <img src="img/productos/Domotica1.jpg" alt="">
+                        <h3></h3>
+                        <p></p>
+                    </div>
+                    <div class="servicio-ind">
+                        <img src="" alt="">
+                        <h3></h3>
+                        <p></p>
+                    </div>
+                    <div class="servicio-ind">
+                        <img src="" alt="">
+                        <h3></h3>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about-services">
+            <div class="contenedor">
+                &nbsp;
+                <div class="servicio-cont">
+                    <div class="servicio-ind">
+                        <img src="" alt="">
+                        <h3></h3>
+                        <p></p>
+                    </div>
+                    <div class="servicio-ind">
+                        <img src="" alt="">
+                        <h3></h3>
+                        <p></p>
+                    </div>
+                    <div class="servicio-ind">
+                        <img src="" alt="">
+                        <h3></h3>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="contenedor-footer">
+            <div class="content-foo">
+                <h4>Phone</h4>
+                <p>639949228</p>
+            </div>
+            <div class="content-foo">
+                <h4>Gmail</h4>
+                <p>ericovisier@gmail.com@gmail.com</p>
+            </div>
+            <div class="content-foo">
+                <!--imagenes-->
+            </div>
+        </div>
+        <h2 class="titulo-final">&copy; PORTFOLIO ERIC OV  </h2>
+    </footer>
 </body>
 
 </html>
